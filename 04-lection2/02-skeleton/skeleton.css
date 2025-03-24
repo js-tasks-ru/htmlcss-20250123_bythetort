@@ -1,0 +1,54 @@
+.skeleton {
+    border: 1px solid var(--grey-3);
+    width: fit-content;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 40px 32px 24px;
+    gap: 8px;
+}
+
+.skeleton__profile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skeleton__profile_data {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skeleton__profile_image {
+    background-color: var(--grey-2);
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    margin-right: 16px;
+}
+
+.skeleton__profile_bar {
+    height: 20px;
+    width: 172px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton_profile_bar_surname {
+    width: 150%;
+}
+
+.skeleton__data {
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-right: 40px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skeleton__databar {
+    height: 20px;
+    width: 515px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
